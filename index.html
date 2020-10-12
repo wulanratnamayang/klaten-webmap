@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klaten Bersinar</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/MarkerCluster.css" />
+    <link rel="stylesheet" href="css/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="css/L.Control.MousePosition.css" />
+    <link rel="stylesheet" href="css/leaflet.defaultextent.css" />
+    <link rel="stylesheet" href="css/leaflet-search.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+</head>
+
+<body>
+  <!--Navigasi Bar-->
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar">
+            <div class="p-4 pt-5">
+              <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(images/klaten.jpg);"></a>
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+            <li>
+                <a href="#">Administrasi Kabupaten Klaten</a>
+            </li>
+            <li>
+                <a href="#">Tempat Bersejarah</a>
+            </li>
+            </ul>
+          </li>
+          <li>
+              <a href="#">Sejarah Klaten</a>
+          </li>
+          <li>
+          <a href="#">Kontak Kami</a>
+          </li>
+        </ul>
+
+        <div class="footer">
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script><br> Wulan Ratna Mayangsari </p>
+        </div>
+
+      </div>
+    </nav>
+<!--End Navigasi Bar-->
+
+ <!-- Content Map-->
+    <div id="mapid" class="p-4 p-md-5" style="width: 1200px; height: 700px;"></div>
+    <script src="js/L.Control.Locate.min.js"></script>
+    <script src="js/L.Control.MousePosition.js"></script>
+    <script src="js/leaflet.defaultextent.js"></script>
+    <script src="js/leaflet-search.js"></script>
+    <script src="js/leaflet.latlng-graticule.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="script.js"></script>
+<!--End Content Map-->
+</body>
+</html>
